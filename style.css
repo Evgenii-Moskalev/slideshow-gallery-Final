@@ -104,3 +104,46 @@ img {
   width: 100%;
   object-fit: cover;
 }
+
+
+/*--------------------------- ADD----------------------- */
+/* Rewrited some styles */
+/* Also added class "container" into slideshow.html */
+
+.container {
+  max-width: 960px;
+}
+
+.slideshow-container {
+  margin: 0 auto;
+}
+
+.mySlides img {
+  height: 70vh;
+}
+
+.demo {
+  height: 10rem;
+}
+
+.prev,
+.next {
+  font-size: 3rem;
+  color: black;
+  background-color: white;
+  opacity: 0.6;
+  border-radius: 50px;
+}
+
+.prev {
+  left: 10%;
+}
+
+.next {
+  right: 10%;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(250, 246, 246, 0.897);
+}
